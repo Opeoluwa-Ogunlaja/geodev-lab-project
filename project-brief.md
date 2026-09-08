@@ -13,7 +13,7 @@ Which farms in Ibadan are prone to flooding during high rainfall based on distan
 ## Data Sources
 
 | Data needed | Source | Dataset / query | Format |
-|---|---|---|---|---|
+|---|---|---|---|
 | Ibadan LGA boundary | GRID3 | [GRID3 NGA – Operational LGA Boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about) (774 features, CC BY 4.0) | GeoPackage / Shapefile |
 | Farms in Ibadan | OSM via QuickOSM | `landuse=farmland`, `landuse=farmyard`, `landuse=orchard`, `landuse=plantation` — clipped to Ibadan | GeoPackage |
 | Farms — coverage backstop | Digital Earth Africa | [Cropland Extent Map 2019, 10 m](https://docs.digitalearthafrica.org/en/latest/data_specs/Cropland_extent_specs.html) (`crop_mask_western`) | COG raster |
